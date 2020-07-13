@@ -42,3 +42,8 @@ Definition of presentation layer
   * **lib\views\pages** \
   Definition of different pages
 
+## Notes
+* Don't forget to setup splash screen for both iOS & Android
+* Default orientation : Portrait Mode (Can be changed from main.dart)
+* For custom page transition use *PageRouteBuilder* instead of *MaterialPageRoute* in router
+* In order to perform async tasks before launching the app use *main* function and make it an *async* function 
